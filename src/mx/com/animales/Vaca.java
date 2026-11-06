@@ -1,6 +1,6 @@
 package mx.com.animales;
 
-public class Vaca extends Animal{
+public class Vaca extends Animal implements Movible{
 
     public Vaca(String nombre, int edad){
         super(nombre, edad);
@@ -11,5 +11,8 @@ public class Vaca extends Animal{
         System.out.println("Sonido: Muuu");
     }
 
+    @Override
+    public void moverse() {
 
+    }
 }
