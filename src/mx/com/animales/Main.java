@@ -1,4 +1,12 @@
 package mx.com.animales;
 
 public class Main {
+    static void main(String[] args) {
+
+        Perro perro = new Perro("Odin", 5);
+        Gato gato = new Gato("Pelusa", 4);
+        Vaca vaca = new Vaca("Pinta", 6);
+
+
+    }
 }
