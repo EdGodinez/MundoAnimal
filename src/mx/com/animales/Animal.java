@@ -9,4 +9,8 @@ public abstract class Animal {
         this.nombre = nombre;
         this.edad = edad;
     }
+
+    public void mostrarInformacion(){
+        System.out.println("Nombre:" + this.nombre + " | Edad: " + this.edad);
+    }
 }
