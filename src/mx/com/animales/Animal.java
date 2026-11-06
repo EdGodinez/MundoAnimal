@@ -1,4 +1,4 @@
 package mx.com.animales;
 
-public class Animal {
+public abstract class Animal {
 }
