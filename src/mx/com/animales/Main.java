@@ -9,5 +9,11 @@ public class Main {
 
         Animal[] listaAnimales = {perro, gato, vaca};
 
+        for (Animal animal : listaAnimales){
+            animal.mostrarInformacion();
+            animal.hacerSonido();
+            System.out.println();
+        }
+
     }
 }
