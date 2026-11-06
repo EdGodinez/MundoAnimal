@@ -7,6 +7,7 @@ public class Main {
         Gato gato = new Gato("Pelusa", 4);
         Vaca vaca = new Vaca("Pinta", 6);
 
+        Animal[] listaAnimales = {perro, gato, vaca};
 
     }
 }
