@@ -13,4 +13,6 @@ public abstract class Animal {
     public void mostrarInformacion(){
         System.out.println("Nombre:" + this.nombre + " | Edad: " + this.edad);
     }
+
+    public abstract void hacerSonido();
 }
