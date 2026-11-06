@@ -1,4 +1,6 @@
 package mx.com.animales;
 
-public class Movible {
+public interface Movible {
+
+    void moverse();
 }
