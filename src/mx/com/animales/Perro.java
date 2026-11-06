@@ -6,4 +6,9 @@ public class Perro extends Animal{
         super(nombre, edad);
     }
 
+    @Override
+    public void hacerSonido() {
+
+    }
+
 }
