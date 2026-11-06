@@ -12,6 +12,10 @@ public class Main {
         for (Animal animal : listaAnimales){
             animal.mostrarInformacion();
             animal.hacerSonido();
+
+            Movible movimiento = (Movible) animal;
+            movimiento.moverse();
+
             System.out.println();
         }
 
