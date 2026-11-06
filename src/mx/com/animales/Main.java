@@ -6,8 +6,10 @@ public class Main {
         Perro perro = new Perro("Odin", 5);
         Gato gato = new Gato("Pelusa", 4);
         Vaca vaca = new Vaca("Pinta", 6);
+        Caballo caballo = new Caballo("Trueno", 10);
 
-        Animal[] listaAnimales = {perro, gato, vaca};
+
+        Animal[] listaAnimales = {perro, gato, vaca, caballo};
 
         for (Animal animal : listaAnimales){
             animal.mostrarInformacion();
