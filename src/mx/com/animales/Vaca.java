@@ -1,4 +1,4 @@
 package mx.com.animales;
 
-public class Vaca {
+public class Vaca extends Animal{
 }
